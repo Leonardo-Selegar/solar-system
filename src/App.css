@@ -1,0 +1,72 @@
+* {
+  box-sizing: border-box;
+  font-family: "Courier New" , Courier , monospace;
+  color: white;
+}
+
+body {
+  background-image: url("./images/background.png");
+}
+
+header h1 {
+  font-size: 50px;
+  font-weight: 200;
+  text-align: center;
+  line-height: 150%;
+}
+
+.component-title {
+  background-color: rgba(24, 26, 37, 0.5);
+  text-align: center;
+  border: 1px solid white;
+  padding: 20px;
+  border-radius: 17px;
+  margin: 30px auto;
+  width: 80vw;
+}
+
+.planets {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.planet {
+  display: flex;
+  flex-direction: column;
+  margin: 30px 0;
+}
+
+.planet p {
+  order: 2;
+  text-align: center;
+}
+
+.planet img {
+  order: 1;
+  width: 150px;
+}
+
+.planet img:hover {
+  transform: scale(1.2);
+}
+
+.missions {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  justify-content: space-between;
+  margin: auto;
+  max-width: 1150px;
+}
+
+.mission {
+  background: rgba(24, 26, 37, 0.5);
+  flex-basis: 30vh;
+  border: 1px solid #FFFFFF;
+  border-radius: 17px;
+}
+
+.mission p {
+  margin-left: 20px;
+}
